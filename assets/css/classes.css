@@ -1,0 +1,35 @@
+
+.main-bg {
+    color: var(--white);
+    background-image: url("../img/main-bg.svg");
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .white-bg {
+    background-color: var(--white);
+    color: var(--primary-color);
+  }
+  .main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 8rem var(--gap);
+
+  }
+  
+  .sections {
+    min-height: 100vh;
+  }
+
+  .menu-spacing {
+    height: 6.4rem;
+  }
+
+  body .full-size  {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+
+.heart {
+  color: deepskyblue;
+}
